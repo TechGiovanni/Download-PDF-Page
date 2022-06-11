@@ -12,31 +12,98 @@ body {
 	line-height: 1.2;
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
+	hyphens: auto;
 }
 
 .wrapper {
-	background-color: #f3e9ff;
+	background-color: rgb(244, 234, 255);
 	height: 100vh;
 	padding-top: 10px;
 }
 
+/* ++++++++++++++++++++++++++++++++++  */
+/*           Hero Section              */
+/* ++++++++++++++++++++++++++++++++++  */
+
 .header {
-	align-items: center;
 	text-align: center;
+	padding: 32px;
+}
+
+/* heading title & text  */
+
+.main-header {
+	font-weight: 900;
+	font-size: 52px;
+	color: rgb(88, 49, 196);
 }
 
 /* logo  */
 
 .logo-img {
 	display: block;
-	max-width: 28%;
-	margin: 25px auto 50px auto;
+	max-width: 300px;
+	margin: 20px auto 0px auto;
 }
 
-/* main article  */
-/* heading title & text  */
+/* ++++++++++++++++++++++++++++++++++  */
+/*           Main Article              */
+/* ++++++++++++++++++++++++++++++++++  */
 
-/* button & PDF */
+.article {
+	background-color: rgb(122, 74, 218);
+	padding: 32px;
+	max-width: 700px;
+	margin: 32px auto;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+.article-list li {
+	margin: 14px 0;
+	padding-left: 10px;
+	border-color: rgb(247, 209, 85);
+}
+
+.MDN-links:link,
+.MDN-links:visited {
+	color: rgb(36, 3, 102);
+	background-color: rgb(255, 237, 177);
+	padding: 2px 6px;
+	border-radius: 4px;
+}
+.MDN-links:hover,
+.MDN-links:active {
+	background-color: rgb(250, 201, 39);
+}
+
+.sub-heading {
+	margin: 14px 0;
+	font-weight: 900;
+}
+
+/* Adding border to the left of text with padding-left of 10px */
+.extra-importants {
+	color: rgb(255, 237, 177);
+	border-left: 5px solid transparent;
+}
+
+.highlight {
+	font-weight: 900;
+}
+/* ++++++++++++++++++++++++++++++++++  */
+/*           Button & PDF              */
+/* ++++++++++++++++++++++++++++++++++  */
+
+.footer {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.footer p {
+	color: rgb(131, 113, 149);
+	margin-top: 30px;
+}
 
 .btn {
 	text-align: center;
@@ -44,17 +111,14 @@ body {
 
 .pdf {
 	display: inline-block;
-	padding: 10px 20px;
-	background: #f9c927;
-	color: #000;
+	padding: 12px 20px;
+	background-color: #f9c927;
+	color: rgb(66, 51, 4);
 	border-radius: 10px;
 	text-align: center;
 	text-decoration: none;
 }
 
-footer {
-	text-align: center;
-	font-size: 12px;
-	margin-top: 10px;
-	color: #6d6c6c;
+.pdf:hover,
+.pdf:active {
 }
